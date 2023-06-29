@@ -1,0 +1,5 @@
+set sel [atomselect top "segname M121 or segname M75 or segname M98 or segname M99 or segname M76 or segname M178 or segname M52 or segname M156 or segname M53 or segname M155 or segname M133 or segname M132 or segname M110 or segname M109 or segname M158 or segname M159 or segname M139 or segname M140 or segname M120 or segname M89 or segname M90 or segname M70 or segname M71 or segname M51 or segname M157 or segname M137 or segname M138 or segname M118 or segname M119 or segname M135 or segname M136 or segname M116 or segname M117 or segname M97 or segname M134 or segname M114 or segname M115 or segname M95 or segname M96 or segname M112 or segname M113 or segname M93 or segname M94 or segname M74 or segname M111 or segname M91 or segname M92 or segname M72 or segname M73"]
+$sel writepdb CNC_6_20_carved.pdb
+$sel writepsf CNC_6_20_carved.psf
+mol new CNC_6_20_carved.psf
+mol addfile CNC_6_20_carved.pdb
