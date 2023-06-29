@@ -1,4 +1,4 @@
-# Master-thesis-
+# Master-thesis
 Master Thesis Softmatter group ICMAB
 
 Geometrical_carving.tcl was the custom tcl code used to carve out the square crystal, exposing the desired crystallographic planes (1 1 0) and (1 -1 0).
