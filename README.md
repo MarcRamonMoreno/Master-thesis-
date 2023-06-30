@@ -6,3 +6,5 @@ Carving_each_chain.tcl was the custom tcl code used to carve out the section of 
 
 The file "glucose_orientation.tcl" creates a two-dimensional vector between carbon 2 and carbon 5 of each sugar molecule in the three spatial subdivisions of the nanocellulose crystal. It then calculates the orientation angle with respect to the vector (-1 1) at each time step.
 The file "average_glucose_orientation.tcl" performs the same operation but averages the set of angles, obtaining a central tendency value for each spatial subdivision of the crystal.
+
+The vector representation of the cellulose orientation angle was automated in the vector_representation_glucose_orientation.ipynb code, written in Python.
